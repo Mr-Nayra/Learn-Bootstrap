@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;900&family=Ubuntu&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p{
+  color:#8f8f8f;
+}
+/*Header Section*/
+#title {
+  background-color: #ff4c68;
+  color: white;
+  overflow-y: hidden;
+}
+
+/*Navbar*/
+.navbar{
+  padding: 20px 40px;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/*Download Button*/
+
+.download-button{
+  margin: 1.5rem 1rem 1.5rem 0;
+}
+
+/*Title Image*/
+
+.title-image{
+  width: 50%;
+  transform: rotate(25deg);
+  margin-bottom: -120px;
+}
+
+
+/*Features Section*/
+
+#features{
+  padding: 50px 0;
+}
+
+.feature-box{
+  text-align: center;
+
+}
+
+.feature-box p{
+  text-align: center;
+  width: 20ch;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
