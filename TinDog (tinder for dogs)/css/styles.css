@@ -25,7 +25,9 @@ h2{
 p{
   color:#8f8f8f;
 }
+
 /*Header Section*/
+
 #title {
   background-color: #ff4c68;
   color: white;
@@ -57,25 +59,28 @@ p{
   margin: 1.5rem 1rem 1.5rem 0;
 }
 
-/*Title Image*/
+/*header*/
 
 .title-image{
   width: 50%;
   transform: rotate(25deg);
   margin-bottom: -80px;
-  margin-left: 50px;
+}
+
+.header-text{
+  margin-bottom: 30px;
 }
 
 
 /*Features Section*/
 
 #features{
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 .feature-box{
   text-align: center;
-
+  margin: 20px 0;
 }
 
 .feature-box p{
@@ -103,7 +108,8 @@ p{
 
 .testimonail-image{
   border-radius: 100%;
-  width: 10%;
+  width: 80px;
+  height: 80px;
   margin: 20px;
 }
 
@@ -120,13 +126,12 @@ p{
 
 .carousel-container{
   padding: 0 100px;
-  height: 300px;
 }
 
 /*Pricing Table*/
 
 #pricing{
-  margin: 50px;
+  margin: 50px 0 30px;
   text-align: center;
 }
 
@@ -135,5 +140,44 @@ p{
 }
 
 .card-body{
-  height: 340px;
+  height:350px;
+}
+
+.card{
+  margin: 20px 0;
+}
+
+/*Call to Action*/
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+/*footer*/
+
+#footer{
+  text-align: center;
+  padding: 50px 0;
+}
+
+/*Media Queries*/
+
+@media (max-width: 1020px){
+  .title-image{
+    transform: rotate(0);
+    margin-bottom: -60px;
+  }
+  .header-text{
+    text-align: center;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  h1{
+    font-size: 3rem;
+    line-height: 1.2;
+  }
 }
