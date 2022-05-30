@@ -122,3 +122,18 @@ p{
   padding: 0 100px;
   height: 300px;
 }
+
+/*Pricing Table*/
+
+#pricing{
+  margin: 50px;
+  text-align: center;
+}
+
+.pricing-button{
+  width: 100%;
+}
+
+.card-body{
+  height: 340px;
+}
